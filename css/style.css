@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1,h2{color: #333;}
+
+#ender,div,figure{
+    
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 90%;
+
+    
+}
+figure {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+figure img{width: 40%;}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea,select{
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#pokedex{
+    background-color: rgb(255, 91, 91);
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 90%;
+}
